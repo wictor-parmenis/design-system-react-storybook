@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/wictor-parmenis.png',
     alt: 'Wictor Gomes',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}

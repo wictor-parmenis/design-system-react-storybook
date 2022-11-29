@@ -14,3 +14,4 @@ export const Avatar: React.FC = (props: AvatarProps) => {
     </AvatarContainer>
   )
 }
+Avatar.displayName = 'Avatar'
