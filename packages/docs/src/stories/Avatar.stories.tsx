@@ -5,8 +5,8 @@ export default {
   title: 'Data display/Avatar',
   component: Avatar,
   args: {
-    src: 'https://github.com/wictor-parmenis.png',
-    alt: 'Wictor Gomes',
+    src: 'https://github.com/diego3g.png',
+    alt: 'Diego Fernandes',
   },
   argTypes: {
     src: {
@@ -18,7 +18,8 @@ export default {
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
-export const WithFallBack: StoryObj<AvatarProps> = {
+
+export const WithFallback: StoryObj<AvatarProps> = {
   args: {
     src: undefined,
   },
